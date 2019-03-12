@@ -1,6 +1,5 @@
 package com.gupao.study.pattern.singleton.test;
 
-import com.gupao.study.pattern.singleton.hungry.HungrySingleton;
 
 public class HungrySingletonTest {
 
