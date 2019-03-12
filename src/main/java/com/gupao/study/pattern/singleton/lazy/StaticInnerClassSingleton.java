@@ -1,14 +1,16 @@
 package com.gupao.study.pattern.singleton.lazy;
 
+import java.io.Serializable;
+
 //静态内部类
-public class StaticInnerClassSingleton {
+public class StaticInnerClassSingleton implements Serializable {
 
 
     private StaticInnerClassSingleton(){
 
     }
 
-    public StaticInnerClassSingleton getInstance(){
+    public static StaticInnerClassSingleton getInstance(){
         return InnerClass.staticInnerClassSingleton;
     }
 
